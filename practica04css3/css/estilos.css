@@ -1,0 +1,127 @@
+body{
+    /* border: 1px solid red; */
+	font-size: 16px; /*1em*/
+	margin: 0px auto;
+	/*requerimiento del cliente*/
+	min-width: 1024px;
+	max-width: 1024px;
+}
+header{
+    /* border: 1px solid blue; */
+    height: 198PX;;
+    border-bottom: 2px dashed gray;
+}
+header img{
+    /* border: 1px solid red; */
+   margin-left: 20px;
+   margin-top: 16px;
+   padding-top: -100px;
+}
+header article img{
+    /* border: 1px solid blue; */
+    height: 30px;
+    padding-right: 0px;
+	position: relative;
+    top: -99px;
+    float: right;
+    margin-left: 1px;
+    margin-right: 8px;
+}
+header nav ul{
+    /* list-style: none = quita los puntos de las listas */
+    list-style: none ;
+    margin-left: -20px;
+    margin-top: 40px;
+}
+header nav ul li{
+    /* border: 1px solid green; */
+    display: inline-table;
+    margin-right: 15px;
+   
+}
+
+#seccion01{
+    /* border:1px solid blue; */
+    height:550px;
+}
+#secc01Art1Art1{
+    display: line-table;
+    border-bottom: 2px dashed gray;
+    margin-right: 487px;
+}
+#secc01Art1Art2{
+    display: line-table;
+    margin-right: 487px;
+}
+#secc01Art1Art2 img{
+    display: line-table;
+    margin-right: 10px;
+   width: 244px;
+   height: 194px;
+}
+#secc01Art2{
+    /* border: 2px solid red; */
+    display: inline-table;
+    position: relative;
+    top:-450px;
+    margin-left: 557px;
+}
+#secc02Art01{
+    /* border: 1px solid red; */
+    display: inline-table;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: -30px;
+}
+#fooParrafo{
+    /* border: 1px solid red; */
+    position: relative;
+    top:-45px;
+    margin-left: 95px;
+}
+#secc02Art02{
+    display: inline-table;
+    width: 170px;
+    margin-right: 10px;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+#logos{
+    height: 30px;
+}
+#bici{
+    height: 532px;
+}
+#years{
+    margin-top: -105px;
+}
+#buy{
+	margin-left: 570px;
+	position: relative;
+	top: -185px;
+}
+#go{
+    /* border: 1px solid blue; */
+    margin-left: 655px;
+	position: relative;
+	top:-150px;
+}
+.parrafo{
+    padding: 20px;
+    padding-left:0;
+}
+.nito{
+        font-weight: bold;
+}
+.colorGirs{
+    color:gray;
+}
+.colorVerde{
+    color:green;
+}
+.letraGrande{
+    font-size: 3.5em;
+}
+.letraMediana{
+    font-size: .9em;
+}

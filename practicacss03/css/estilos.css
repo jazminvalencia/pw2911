@@ -1,0 +1,120 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0px auto;
+	/*requerimiento del cliente*/
+	min-width: 1136px;
+    max-width: 1136px;
+    height:50px
+}
+body header img{
+    width: 915px;
+    float :right;
+}
+header input{
+    border: 2px solid gray;
+	float:  left;
+	margin-right: -240px;
+    margin-top: 7px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    margin-left: 17px;
+    text-align: right;
+    
+	/* position: relative; */
+}
+#primerSeccion{
+    border:1px solid #2C2B2B ;
+    /* largo de la eccion */
+    height: 335px;
+    top:39px;
+    padding-bottom: 0px;
+    position: relative;
+    display: inline-table;
+    background-color :#2C2B2B;
+}
+#seccion01art01{
+    /* border: 1px solid red; */
+    display: inline-table;
+    height: 184px ;
+    padding-right: 39px;
+    width: 15%;
+}
+#seccion01art01 ul{
+    /* le quita los puntos a la lista */
+    list-style: none;
+    color: grey;
+}
+#seccion01art01 img{
+    height: 73px;
+}
+#segundaSeccion{
+    border:1px solid gray ;
+    /* largo de la seccion */
+    height: 300px;
+    color:gray;
+    top :40px;
+    position: relative;
+    background-color :#2C2B2B;
+    /* display: block; */
+}
+.caja{
+    /* border: 1px solid red; */
+    color:gray;
+    height: 251px;
+    display: inline-table;
+    margin-top: 50px;
+    width: 20%;
+    text-align: justify
+}
+
+.contenedor {
+    /* border: 1px solid red; */
+    display: inline-table;
+    margin: 20px 20px;
+    width: 28%;
+}
+.marcoImagen{
+    /* display: inline-block; */
+    border-bottom: 2px dashed gray;
+    margin: 0px 0px 10px;
+    padding: 0px 0px 10px;
+    text-align: right;
+    /* width: 100%; */
+}
+#segundaSeccion article article img{
+    height: 33px;
+}
+.nito{
+    font-weight: bold;
+    
+}
+.esquina{
+    float: right;
+}
+.azul{
+    color:#4976CE;
+}
+.verde{
+    background-color : #aec952;
+}
+.negro{
+    background-color :#515151;
+}
+.rojo{
+    background-color :#d23e3f;
+}
+.gris{
+    background-color :#dedede;
+}
+.colorBlanco{
+    color: white;
+}
+.colorGris{
+    color: gray;
+}
+.letragrande{
+	font-size: 1.2em;
+}
+.letramediana{
+	font-size: 1em;
+}
