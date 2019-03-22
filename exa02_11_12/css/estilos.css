@@ -1,0 +1,90 @@
+body{
+    /* border: 1px solid red; */
+	font-size: 16px; /*1em*/
+	margin: 0px auto;
+	/*requerimiento del cliente*/
+	min-width: 1430px;
+	max-width: 1430px;
+}
+header nav ul li{
+    /* border: 1px solid green; */
+    display: inline-table;
+    margin-right: 15px;
+}
+header article{
+    float: left;
+    height: 29px;
+}
+header span{
+    height: 29px;
+}
+header span nav{
+    float:right;
+    display: inline-table;
+}
+section hr{
+    width: 100%;
+    border: 1px solid black;
+}
+section article span p{
+    margin-top: 0;
+    margin-left: 150px;
+    margin-right: 200px;
+}
+#titulo{
+    /* border: 2px solid blue;  */
+	right: -300px;
+	position: relative;
+}
+#lupa{
+    position: relative;
+    left: -10px;
+}
+#sect01art01art01 img{
+    /* border: 1px solid red; */
+    height: 550px;
+    width: 950px;
+    top: 20px;
+    position: relative;
+    left: 70px;
+}
+#sect01art01 {
+    /* bor : 5px solid black;  */
+    border-right: 2px solid black;
+    height: 700px;
+    width: 1150px;
+}
+#sect01art02{
+    /* border: 1px solid blue; */
+    display: inline-block;
+    height: 700px;
+    width: 300px;
+}
+.indigo{
+    /* border: 1px solid blue; */
+    position: relative;
+    top: 300px;
+}
+#sect01art02 img{
+    /* border: 1px solid red; */
+    position: relative;
+    left: 1200px;
+    top: -678px;
+    height: 300px;
+    width: 200px;
+}
+#sect01art02 p {
+    /* border: 1px solid red; */
+    position: relative;
+    left: 1200px;
+    top: -695px;
+    height: 150px;
+    width: 200px;
+}
+#sect01art02 span img{
+    /* border: 1px solid red; */
+    position: relative;
+    left: 1200px;
+    height: 150px;
+    width: 200px;
+}
