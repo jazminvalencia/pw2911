@@ -1,5 +1,5 @@
 body{
-    /* border: 1px solid red; */
+    border: 1px solid red;
 	font-size: 16px; /*1em*/
 	margin: 0px auto;
 	/*requerimiento del cliente*/
@@ -7,7 +7,7 @@ body{
 	max-width: 1430px;
 }
 header nav ul li{
-    /* border: 1px solid green; */
+    border: 1px solid green;
     display: inline-table;
     margin-right: 15px;
 }
@@ -30,6 +30,14 @@ section article span p{
     margin-top: 0;
     margin-left: 150px;
     margin-right: 200px;
+}
+section{
+    border: 1px solid red;
+
+}
+article{
+    border: 1px solid blue;
+
 }
 #titulo{
     /* border: 2px solid blue;  */
@@ -55,12 +63,11 @@ section article span p{
     width: 1150px;
 }
 #sect01art02{
-    /* border: 1px solid blue; */
-    display: inline-block;
+     border: 1px solid blue; 
     height: 700px;
     width: 300px;
 }
-.indigo{
+section article article p {
     /* border: 1px solid blue; */
     position: relative;
     top: 300px;
