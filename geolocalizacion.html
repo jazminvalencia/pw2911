@@ -12,8 +12,8 @@
 		function localizacion(){
 			function muestraProsicion(position){
 			var latlon =position.coords.latitude+','+position.coords.longitude;
-			var imagenMapa = "http:maps.googleapis.com/maps/api/staticmap?center="+latlon+"&zoom=14&size=400x300&key=AIzaSyAtKadHnn8uAWyBRXYrLPGuTX3FY_2M3ew";
-			document.getElementById('mapa').innerHTML = "<img src='>"+imagenMapa+"'>";
+			var imagenMapa = "https://maps.googleapis.com/maps/api/staticmap?center="+latlon+"&zoom=14&size=400x300&key=AIzaSyAtKadHnn8uAWyBRXYrLPGuTX3FY_2M3ew"
+			document.getElementById('mapa').innerHTML = "<img src='"+imagenMapa+"'>";
 			document.getElementById("demo").innerHTML=latlon;
 		}
 		function muestraError(error){
