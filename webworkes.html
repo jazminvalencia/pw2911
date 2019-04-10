@@ -5,14 +5,17 @@
 	<title>weworkes</title>
 </head>
 <body>
-	<p>Contar numeros:
-	<div id="resultado">
-	</div>
-	</p>
+	<p>Contar numeros:<div id="resultado"></div></p>
 	<button onClick="iniciarWorker();">iniciar</button>
 	<button onClick="paraWorker();">Detener</button>
+
+	<p>Contar numeros:<div id="resultado"></div></p>
+	<button onClick="iniciarWorker();">iniciar</button>
+	<button onClick="paraWorker();">Detener</button>
+
 	<script type="text/javascript">
 		var w1=undefined;
+		var w2;
 		function iniciarWorker(){
 			//Prueguntamos si lo soporta
 			if(typeof(w1)=="undefined"){
@@ -27,6 +30,22 @@
 		function paraWorker(){
 			w1.terminete();
 			w1=undefined;
+		}
+
+		function iniciarWorker2(){
+			//Prueguntamos si lo soporta
+			if(typeof(w1)=="undefined"){
+				w2=new Worker('demoWorker.js');
+				w2.onmessage = function(event){
+					document.getElementById('resultado').innerHTML= event.data;
+				}
+			}else{
+					alert("El navegador no soporta WebWorkers");
+				}
+		}
+		function paraWorker(){
+			w2.terminete();
+			w2=undefined;
 		}
 	</script>
 </body>
