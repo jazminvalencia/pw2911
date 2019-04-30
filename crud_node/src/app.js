@@ -21,7 +21,7 @@ app.use(myConnection(mysql,{
 	host: 'localhost',
 	user: 'root',
 	password: '',
-	port: 3606,
+	port: 3306,
 	database: 'crudnodejsmysql'
 },'single'));
 
